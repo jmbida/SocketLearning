@@ -1,0 +1,18 @@
+=========================-WINDOWS-============================
+    gcc -Wall -Wextra server.c -o server -lws2_32 
+
+    ./server 
+
+=========================-LINUX-============================
+
+    gcc -Wall -Wextra server.c -o server
+
+    ./server 
+
+=========================-REMARQUES-============================
+
+    -Je suis sur system windows donc je n'ai pas peu tester sur linux il se pourrai que cette
+    commande linux génère un warning mais rien d'inquiétant vous pouvez exécuter le fichier de sortie
+    sans problème
+
+    -pour windows des vérificqtion seront demandés par les parre feux vous pouvez valider sans crainte
